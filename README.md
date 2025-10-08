@@ -139,4 +139,4 @@ This is a demonstration project. The summarization feature currently uses a plac
 
 ---
 
-Built with ❤️ by [Surinder Longia](https://github.com/slongia)
+Built by [Surinder Longia](https://github.com/slongia)
