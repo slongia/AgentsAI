@@ -1,10 +1,6 @@
 ---
-title: AgentsAI
-emoji: 🐠
-colorFrom: blue
-colorTo: yellow
+title: AI Agents
 sdk: docker
-pinned: false
 short_description: Introduction to AI agents with LangChain and FAISS
 ---
 
