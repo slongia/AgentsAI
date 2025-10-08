@@ -8,11 +8,11 @@ pinned: false
 short_description: Introduction to AI agents with LangChain and FAISS
 ---
 
-# 🤖 AgentsAI
+# AgentsAI
 
 An AI agents quickstart demo showcasing text extraction, summarization, and vector search capabilities using modern AI/ML frameworks.
 
-## 🌟 Features
+## Features
 
 - **Text Extraction**: Parse HTML or plain text input using BeautifulSoup
 - **Summarization**: Placeholder for LLM-based text summarization (ready for integration)
@@ -21,7 +21,7 @@ An AI agents quickstart demo showcasing text extraction, summarization, and vect
 - **Web Interface**: Interactive Gradio UI for easy testing and demonstration
 - **FastAPI Backend**: RESTful API support via FastAPI/Uvicorn
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Python 3.11**
 - **Gradio 3.44** - Interactive web interface
@@ -32,7 +32,7 @@ An AI agents quickstart demo showcasing text extraction, summarization, and vect
 - **Transformers** - HuggingFace models support
 - **OpenAI API** - Ready for LLM integration
 
-## 📦 Installation
+## Installation
 
 ### Local Development
 
@@ -71,14 +71,14 @@ This project includes a VS Code dev container configuration for consistent devel
 # Open in VS Code and use "Reopen in Container"
 ```
 
-## 🎯 Usage
+## Usage
 
 1. Open your browser to `http://localhost:7860`
 2. Paste HTML or plain text into the input box
 3. View the extracted text, summary, and FAISS indexing status
 4. Check the LangChain version information
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AgentsAI/
@@ -91,7 +91,7 @@ AgentsAI/
 └── README.md               # This file
 ```
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 
@@ -106,13 +106,13 @@ The project uses environment variables for configuration. You can set:
 - `GRADIO_SERVER_PORT`: Custom port (default: 7860)
 - Additional API keys for OpenAI, etc.
 
-## 🔗 Links
+## Links
 
 - **Hugging Face Space**: [slongia/AgentsAI](https://huggingface.co/spaces/slongia/AgentsAI)
 - **GitHub Repository**: [slongia/AgentsAI](https://github.com/slongia/AgentsAI)
 - **Hugging Face Spaces Config**: [Documentation](https://huggingface.co/docs/hub/spaces-config-reference)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -122,18 +122,18 @@ Contributions are welcome! Feel free to:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [FAISS Documentation](https://faiss.ai/)
 - [Gradio Documentation](https://gradio.app/docs/)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 
-## ⚠️ Note
+## Note
 
 This is a demonstration project. The summarization feature currently uses a placeholder implementation and should be replaced with a proper LLM (e.g., OpenAI GPT, Anthropic Claude, or open-source models) for production use.
 
