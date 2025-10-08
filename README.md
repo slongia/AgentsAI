@@ -59,13 +59,50 @@ docker build -t agentsai .
 docker run -p 7860:7860 agentsai
 ```
 
-### Dev Container
+### VS Code Dev Container
 
-This project includes a VS Code dev container configuration for consistent development environments:
+This project includes a VS Code dev container configuration for consistent development environments.
 
+#### Prerequisites
+- Visual Studio Code
+- Docker Desktop
+- Remote - Containers extension
+
+#### Steps
+
+1. **Open the repository in VS Code**
+   - If cloning: `git clone https://github.com/slongia/AgentsAI.git && code AgentsAI`
+   - If already in GitHub Codespaces or remote container: You're ready!
+
+2. **Reopen in Container** (if not already in one)
+   - Press `F1` or `Ctrl+Shift+P` / `Cmd+Shift+P`
+   - Type: "Remote-Containers: Reopen in Container"
+   - Wait for container to build
+
+3. **Install dependencies in the terminal**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**
+   ```bash
+   uvicorn src.app:app --host 0.0.0.0 --port 7860 --reload
+   ```
+
+5. **Access the application**
+   - VS Code will auto-forward port 7860
+   - Click "Open in Browser" when prompted
+   - Or navigate to `http://localhost:7860`
+
+#### Quick Start (One Command)
 ```bash
-# Open in VS Code and use "Reopen in Container"
+pip install -q -r requirements.txt && uvicorn src.app:app --host 0.0.0.0 --port 7860 --reload
 ```
+
+#### Development Tips
+- Use `--reload` flag for auto-restart on code changes
+- Check running processes: `ps aux | grep uvicorn`
+- Stop server: `Ctrl+C` or `pkill -f uvicorn`
 
 ## Usage
 
